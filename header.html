@@ -65,6 +65,25 @@
         margin: 0px;
         color: white;
     }
+    .main {
+        height: 300px;
+    }
+    .main__title {
+        color: white;
+        font-size: 25px;
+    }
+    .input {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 2px solid white;
+        border-radius: 25px;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 16px;
+        height: 50px;
+        padding: 0px 20px;
+        width: 70%;
+    }
+
 </style>
 <body>
     <header class="header">
@@ -80,5 +99,9 @@
             </ul>
         </div>
     </header>
+    <section class="main">
+        <h2 class="main__title">¿Qué estás buscando para ver?</h2>
+        <input class="input" type="text" placeholder="Buscar...">
+    </section>
 </body>
 </html>
