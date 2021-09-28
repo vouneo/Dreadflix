@@ -1,1 +1,1 @@
-# video-project
+# Dreadflix project
