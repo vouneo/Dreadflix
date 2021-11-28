@@ -69,6 +69,10 @@ body {
 
 .main {
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__title {
@@ -76,7 +80,7 @@ body {
   font-size: 25px;
 }
 
-categories__title {
+.categories__title {
   color: whitesmoke;
   font-size: 16px;
   position: absolute;
@@ -250,6 +254,16 @@ categories__title {
 
 .login__container--register a:hover {
   text-decoration: underline;
+}
+
+.rs__container {
+  margin-left: 45px;
+}
+
+.logo__rs {
+  position: relative;
+  top: 10px;
+  margin-right: 5px;
 }
 
 .input {
