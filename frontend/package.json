@@ -1,11 +1,11 @@
 {
-  "name": "Dreadflix",
+  "name": "dreadflix",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "live-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node index",
+    "dev": "DEBUG=app:* nodemon index"
   },
   "repository": {
     "type": "git",
